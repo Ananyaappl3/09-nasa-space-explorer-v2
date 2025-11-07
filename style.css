@@ -7,8 +7,8 @@
 
 /* Base page styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
+  font-family: Inter, Helvetica, Public Sans;
+  background-color: #061f4a;
   padding: 20px;
 }
 
@@ -29,9 +29,9 @@ body {
 }
 
 h1 {
-  font-family: Verdana, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: bold;
-  color: #212121;
+  color: #f1f1f1;
 }
 
 /* Logo */
@@ -101,7 +101,7 @@ button:hover {
   flex: 1 1 100%;  /* full width by default */
   min-width: 280px;
   max-width: 500px;
-  background: white;
+  background: #dce4ef;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -124,10 +124,21 @@ button:hover {
   border-radius: 4px;
 }
 
-.gallery-item p {
+.gallery-item h3 {
+  font-family: Helvetica, sans-serif;
   margin-top: 10px;
   padding: 5px;
-  font-size: 14px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.gallery-item p {
+  font-family: Public Sans, sans-serif;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  color: #E4002B
 }
 
 /* Placeholder content */
